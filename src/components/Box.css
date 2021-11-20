@@ -1,0 +1,29 @@
+.box {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  border: 1px solid #e9ebf2;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 10px;
+  position: relative;
+  height: 40px;
+}
+.close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background: #4972f4;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.box img {
+  height: 28px;
+  width: 28px;
+  margin-right: 5px;
+}
